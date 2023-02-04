@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Pinyon Script";
+    src: url("fonts/PinyonScript-Regular.ttf") format("truetype");
+}
+
+body {
+    text-align: center;
+    background-color: #E5E8E8;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: black;
+    border-width: 0.05em;
+}
+
+h2 {
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em;
+    border-width: 0.05em;
+}
+
+.challenge-1, .challenge-2 {
+    font-size: 2em;
+}
+
+.change-message {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.song-lyrics {
+    font-size: 1.5em;
+    font-family: "Pinyon Script", "Sans-Serif";
+    font-weight: bold;
+}
+
+.even {
+    color: #EC7063;
+}
+
+.odd {
+    color: #5DADE2;
+}
+
+.footer {
+
+    margin-top: 2em;
+
+}
+
+.footer-links {
+    text-decoration: none;
+    color: black;
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+    border-width: 0.05em;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.footer-links:hover {
+    text-decoration: none;
+    color: white;
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+    border-width: 0.05em;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: black;
+}

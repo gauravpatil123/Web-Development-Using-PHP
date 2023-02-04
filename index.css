@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #E5E8E8;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: black;
+    border-width: 0.05em;
+}
+
+.root-h2-links {
+    text-decoration: none;
+    color: black;
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+    border-width: 0.05em;
+    font-size: 1em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.root-h2-links:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
