@@ -12,5 +12,10 @@
                     1. Code Homework #1 [Variables, expressions, and control flow]
                 </a>
             </h2>
+            <h2>
+                <a class="root-h2-links" href="functions/codehw2.php">
+                    2. Code Homework #2 [Functions]
+                </a>
+            </h2>
     </body>
 </html>
