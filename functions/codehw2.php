@@ -17,6 +17,10 @@
 
                         //ISBN Validator Function
                         function isbn_validator($isbn) {
+                            /*
+                                Input: ISBN code as a String
+                                Output: returns boolean true if isbn is valid else returns false
+                            */
 
                             $valid = false;
                             if (strlen($isbn) == 10) {
@@ -41,6 +45,11 @@
 
                         //ISBN Message & Link Printer
                         function isbn_validator_message($isbn) {
+                            /*
+                            Input: Isbn code as a string
+                            Output: returns a strinf that prints message for the isbn validity and 
+                                    prints a link to book is the isbn is valid 
+                            */
 
                             global $ISBN_ROOT_URL;
                             $url = "";
@@ -69,12 +78,17 @@
 
                             //Toss Function 
                             function toss() {
+                                // returns ints 0 or 1
 
                                 return mt_rand(0,1);
 
                             }
 
                             function multi_toss($num) {
+                                /*
+                                Input: int number for the number of tosses to be flipped
+                                Output: returns array with the results of all the tosses
+                                */
 
                                 $tosses = array();
                                 for ($toss = 0; $toss < $num; $toss++) {
@@ -89,6 +103,10 @@
                             }
 
                             function toss_display($num, $start_message="", $end_message="") {
+                                /*
+                                    Input: number of times to flip the coin, start messageif any, end message if any
+                                    Output: returns string with html to represent the images for the flipped coins
+                                */
 
                                 $flip = multi_toss($num);
                                 $out_message = $start_message;
@@ -109,6 +127,9 @@
                             }
 
                             function odd_toss_displays() {
+                                /*
+                                    Returns a string to display all the odd number of coin flips using the toss_display function
+                                */
 
                                 $out_string = "";
 
@@ -132,6 +153,9 @@
                         <?php
                         
                             function consecutive_head_tosses() {
+                                /*
+                                    returns array of tosses once there have been two consecutive head flips
+                                */
 
                                 $last_flip = null;
                                 $tosses = array();
@@ -150,6 +174,11 @@
                             }
 
                             function consecutive_toss_display($tosses, $num, $start_message="", $end_message="") {
+                                /*
+                                    Input: Array of toss results, number of flips in the toss result array, 
+                                            start message if any, end message if any.
+                                    Output: return a string with the html to represent all the coin flips in the tosses array
+                                */
 
                                 $flip = $tosses;
                                 $out_message = $start_message;
