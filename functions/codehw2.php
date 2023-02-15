@@ -47,7 +47,7 @@
                         function isbn_validator_message($isbn) {
                             /*
                             Input: Isbn code as a string
-                            Output: returns a strinf that prints message for the isbn validity and 
+                            Output: returns a string that prints message for the isbn validity and 
                                     prints a link to book is the isbn is valid 
                             */
 
