@@ -128,7 +128,7 @@
 
                             function odd_toss_displays() {
                                 /*
-                                    Returns a string to display all the odd number of coin flips using the toss_display function
+                                    returns a string to display all the odd number of coin flips using the toss_display function
                                 */
 
                                 $out_string = "";
@@ -177,7 +177,7 @@
                                 /*
                                     Input: Array of toss results, number of flips in the toss result array, 
                                             start message if any, end message if any.
-                                    Output: return a string with the html to represent all the coin flips in the tosses array
+                                    Output: returns a string with the html to represent all the coin flips in the tosses array
                                 */
 
                                 $flip = $tosses;
