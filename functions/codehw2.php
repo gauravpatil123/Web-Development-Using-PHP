@@ -18,7 +18,7 @@
                         //ISBN Validator Function
                         function isbn_validator($isbn) {
                             /*
-                                Input: ISBN code as a String
+                                Input: ISBN code as a string
                                 Output: returns boolean true if isbn is valid else returns false
                             */
 
@@ -104,7 +104,7 @@
 
                             function toss_display($num, $start_message="", $end_message="") {
                                 /*
-                                    Input: number of times to flip the coin, start messageif any, end message if any
+                                    Input: number of times to flip the coin, start message if any, end message if any
                                     Output: returns string with html to represent the images for the flipped coins
                                 */
 
