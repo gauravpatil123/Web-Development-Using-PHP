@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>PHP Week 3</title>
+        <title>PHP Week 4</title>
         <link rel="stylesheet" href="codehw2.css">
     </head>
     <body>
