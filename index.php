@@ -17,5 +17,10 @@
                     2. Code Homework #2 [Functions]
                 </a>
             </h2>
+            <h2>
+                <a class="root-h2-links" href="arrays/codehw3.php">
+                    3. Code Homework #3 [Arrays]
+                </a>
+            </h2>
     </body>
 </html>

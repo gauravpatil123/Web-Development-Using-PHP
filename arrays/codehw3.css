@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Pinyon Script";
+    src: url("fonts/PinyonScript-Regular.ttf") format("truetype");
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: black;
+    border-width: 0.05em;
+}
+
+h2 {
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em;
+    border-width: 0.05em;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.challenge-1, .challenge-2 {
+    font-size: 2em;
+}
+
+table {
+    margin-bottom: 1em;
+}
+
+table, th, td {
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 1em;
+    background: #99b19c;
+    color: #F0F0F0;
+}
+
+td {
+    padding: 0.2em;
+}
+
+.books-table {
+    font-size: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-title {
+    text-align: left;
+}
+
+.book-title a {
+    text-decoration: none;
+    color: black;
+}
+
+tr:nth-child(even){
+    background: rgba(0, 0, 0, 0.3);
+}
+
+tr:nth-child(odd){
+    background: #F0F0F0;
+}
+
+.total-price {
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+    border-width: 0.06em;
+    font-size: 1.6em;
+    border-radius: 0.75em;
+    background: #99b19c;
+    color: #F0F0F0;
+    border-color: black;
+}
+
+.total-price:hover{
+    color: black;
+}
+
+.book-link {
+    text-decoration: none;
+    color: black;
+}
+
+tr:nth-child(even) a:hover{
+    color: #F0F0F0;
+}
+
+tr:nth-child(odd) a:hover{
+    color: #99b19c;
+}
+
+.challenge-2-a {
+    font-size: 1.75em;
+    font-family:"Pinyon Script";
+}
+
+.coin-face {
+    width: 10vw;
+    height: 10vw;
+    padding: 0.25em;
+}
+
+.footer {
+
+    margin-top: 2em;
+
+}
+
+.footer-links {
+    text-decoration: none;
+    color: black;
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+    border-width: 0.05em;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.book-link:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.footer-links:hover {
+    text-decoration: none;
+    color: white;
+    width:fit-content;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.25em;
+    border-width: 0.05em;
+    font-size: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: black;
+}
